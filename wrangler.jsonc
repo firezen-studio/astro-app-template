@@ -1,0 +1,18 @@
+{
+  // Top-level configuration
+  "name"               : "cloudflare-hono-astro-app-template",
+  "main"               : "src/server/index.ts",
+  "compatibility_date" : "2026-07-14",
+  "env": {
+    "staging": {
+      "vars": {
+        "ENVIRONMENT": "staging"
+      }
+    },
+    "production": {
+      "vars": {
+        "ENVIRONMENT": "production"
+      }
+    }
+  }
+}
